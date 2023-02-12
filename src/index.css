@@ -3,6 +3,7 @@
 }
 
 body {
+	background-color: #282d35;
 	margin: 0;
 	font-family: "Inter", sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -25,14 +26,40 @@ nav {
 .nav--logo_text {
 	margin-right: auto;
 	color: #61dafb;
-  font-weight: 700;
+	font-weight: 700;
 }
 
 .nav--title {
-  color: #deebf8
+	color: #deebf8;
 }
 
 .nav--icon {
 	height: 30px;
 	margin-right: 7px;
+}
+
+main {
+  padding: 57px 27px;
+  color: white;  
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
 }
