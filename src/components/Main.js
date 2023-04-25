@@ -1,6 +1,6 @@
 import React from "react";
 
-function Main(props) {
+function Main() {
 	return (
 		<main>
 			<h1 className="main--title">Fun facts about React</h1>

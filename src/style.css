@@ -27,49 +27,49 @@ nav {
 }
 
 .nav--logo_text {
-    margin-right: auto;
+	margin-right: auto;
 	color: #61dafb;
 	font-weight: 700;
 }
 
 .nav--title {
-    color: #deebf8;
-    font-weight: 600;
+	color: #deebf8;
+	font-weight: 600;
 }
 
 .nav--title_link {
-    color: #deebf8;
-    position: relative;
-    font-weight: 600;
-    text-decoration: none;
+	color: #deebf8;
+	position: relative;
+	font-weight: 600;
+	text-decoration: none;
 }
 
 .nav--title_link::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    border-radius: 4px;
-    background-color: #deebf8;
-    bottom: -4px;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-  }
-  
-  .nav--title_link:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
-  }
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	border-radius: 4px;
+	background-color: #deebf8;
+	bottom: -4px;
+	left: 0;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: transform 0.3s ease-in-out;
+}
+
+.nav--title_link:hover::before {
+	transform-origin: left;
+	transform: scaleX(1);
+}
 
 main {
 	padding: 60px 30px;
 	color: white;
-    background-image: url(./images/react-logo-large.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right 50%;
+	background-image: url(./images/react-logo-large.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right 50%;
 }
 
 .main--title {
