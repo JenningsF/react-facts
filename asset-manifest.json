@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-facts/static/css/main.273277f1.css",
+    "main.js": "/react-facts/static/js/main.edce6e49.js",
+    "static/media/react-logo-large.png": "/react-facts/static/media/react-logo-large.d672aad058246daa2a7f.png",
+    "static/media/react-logo.png": "/react-facts/static/media/react-logo.efd493d934ea7f187520.png",
+    "index.html": "/react-facts/index.html",
+    "main.273277f1.css.map": "/react-facts/static/css/main.273277f1.css.map",
+    "main.edce6e49.js.map": "/react-facts/static/js/main.edce6e49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.273277f1.css",
+    "static/js/main.edce6e49.js"
+  ]
+}
